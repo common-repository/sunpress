@@ -1,0 +1,121 @@
+/*  
+Description: Searchbox widget styling, fixed css will appear below, customisable CSS will appear in widget code, and search results
+as inline css.
+Version: 0.55
+Author: Sunshine
+Author URI: http://www.sunshine.co.uk
+
+*/
+
+/** Fixed Search Box CSS **/
+#wpss_searchbox div{text-align:left}
+#wpss_searchbox #searchtype label{display:inline;}
+#wpss_searchbox form{margin:0px;padding:0px}
+#wpss_searchbox .searchval{float:left;margin-bottom:5px;}
+#wpss_searchbox .searchval select{float:left;margin-right:10px;}
+#wpss_searchbox .searchval2 select{margin-right:6px;}
+#wpss_searchbox button{width:160px;cursor:pointer;}
+#wpss_searchbox select {margin: 5px 0 8px;}
+
+#addrdiv{float:left;padding-bottom:10px;clear:both;}
+#addadiv{float:left;padding-bottom:10px;display:none;}
+
+.wpss_sel{width:140px;}
+.wpss_sel1{width:40px;}
+.wpss_sel2{width:190px;}
+.wpss_sel3{width:90px;}
+
+
+.wpss_sp{clear:both;height:0;}
+
+/** Hotel Search result css **/
+
+.wpss_hotel{border:1px solid;margin-bottom:10px;overflow:hidden;}
+
+.wpss_hotel .pic{float:left;margin:0px 10px 10px 10px;}
+.wpss_hotel .pic img{border:1px solid #CCC;}
+.wpss_hotel .desc{float:left;margin:10px 10px 10px 0px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:11px;line-height:20px;}
+.wpss_hotel .stars{text-align:right;display:block;margin-bottom:5px;}
+.wpss_hotel p{margin:0px;padding:0px;}
+.wpss_hotel .book{border-top:1px solid;border-color:#EFEFEF;}
+
+.wpss_hotel .board{float:left;;width:60%;line-height:20px;}
+.wpss_hotel .price{float:left;width:15%;font-weight:bold;line-height:20px;text-align:right;}
+.wpss_hotel .option{float:left;width:24%;text-align:center;}
+.wpss_hotel .board span, 
+.wpss_hotel .price span,
+.wpss_hotel .option span{
+	display:block;
+	padding:10px;
+	font-size:11px;font-family:Verdana,Arial,Helvetica,sans-serif;
+}
+
+.wpss_hotel .title, .wpss_summary .title, .wpss_transfer .title{line-height:32px;padding:0px 10px 0px 10px;font-size:12px;}
+.wpss_hotel .title a, .wpss_summary .title a, .wpss_transfer .title a{text-decoration:none;font-weight:bold;}
+.wpss_hotel .title a:hover, .wpss_summary .title a:hover, .wpss_transfer .title a:hover{text-decoration:underline;}
+.wpss_hotel form,.wpss_flight form,.wpss_summary form, .wpss_transfer form{margin:0;padding:0;}
+ 
+.wpss_hotel .title{margin-bottom:0px;}
+
+/** Redirect search result **/
+.wpss_redir {width:45%;font-size:12px;font-family:Verdana,Arial,Helvetica,sans-serif;padding-top:25px;border:1px solid #82bdcd;margin-top:15px;} 
+.wpss_redir img{padding:20px;}
+.wpss_redir a{font-weight:bold;color:#ee482e;}
+
+/** Flight daily table **/
+#wpss_flights_table_head{border-collapse:collapse;}
+.wpss_flight .key{}
+#wpss_flights_table_head a{font-size:11px;}
+#wpss_flights_table_head td{font-size:11px;border-top:1px solid;border-right:1px solid;border-bottom:1px solid;}
+#wpss_flights_table_head td.highlight{color:#000000;font-weight:bold;border-bottom-color:#FFFFFF;}
+.wpss_flight #wpss_flights_table_head td.highlight{border-bottom-color:#FFFFFF;background-color:#FFFFFF;}
+
+#wpss_flights_table{border-collapse:collapse;border-left:1px solid;border-right:1px solid;border-bottom:1px solid;border-top-width:0px;}
+#wpss_flights_table a{font-size:11px;}
+#wpss_flights_table td{font-size:11px;border:0px;border-top:1px solid #EFEFEF;}
+
+.wpss_flight .book .fdetails{float:left;width:60%;line-height:15px;}
+.wpss_flight .book .price{float:left;width:15%;font-weight:bold;line-height:20px;text-align:right;}
+.wpss_flight .book .option{float:left;width:24%;text-align:center;}
+
+.wpss_flight .book .fdetails span, 
+.wpss_flight .book .price span,
+.wpss_flight .book .option span{
+	display:block;
+	padding:10px;
+}
+
+/** Transfer **/
+
+.wpss_transfer{border:1px solid;margin-bottom:10px;}
+.wpss_transfer .book{font-size:11px;font-family:Verdana,Arial,Helvetica,sans-serif;}
+.wpss_transfer .book .tdetails{float:left;width:55%;line-height:15px;}
+.wpss_transfer .book .price{float:left;width:15%;font-weight:bold;line-height:20px;text-align:right;}
+.wpss_transfer .book .option{float:left;width:29%;text-align:center;}
+.wpss_transfer .book .tdetails span, 
+.wpss_transfer .book .price span,
+.wpss_transfer .book .option span{
+	display:block;
+	padding:10px;
+}
+
+.wpss_flight .book button,.wpss_hotel button, .wpss_transfer .book button{font-size:11px;font-family:Verdana,Arial,Helvetica,sans-serif;font-weight:bold;}
+
+
+/** Summary **/
+
+.wpss_summary{border:1px solid;margin-bottom:10px;}
+.wpss_summary .subtitle{font-size:12px;}
+.wpss_summary button{font-weight:bold;}
+.wpss_summary .wpss_details{padding:10px;border-top:1px solid #EFEFEF;font-size:12px;}
+.wpss_details .subtitle{margin-bottom:5px;padding-bottom:5px;border-bottom:1px dotted #CCCCCC;}
+.wpss_details .item{float:left;width:60%;line-height:15px;}
+.wpss_details .item span{padding:2px 10px 0px 0px;display:block;}
+.wpss_details .subitem{float:left;width:25%;line-height:20px;}
+.wpss_details .price{float:left;width:15%;line-height:20px;font-weight:bold;text-align:right;}
+.wpss_summary form{padding:0px;margin:0px;}
+
+.wpss_notice{font-size:11px;font-weight:bold;padding:10px;color:#000000;margin-bottom:10px;}
+
+.colorsamp{float:left;height:20px;width:20px;}
+
